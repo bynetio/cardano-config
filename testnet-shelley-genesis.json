@@ -1,41 +1,41 @@
 {
     "activeSlotsCoeff": 5.0e-2,
-    "epochLength": 432000,
+    "epochLength": 86400,
     "genDelegs": {
-        "637f2e950b0fd8f8e3e811c5fbeb19e411e7a2bf37272b84b29c1a0b": {
-            "delegate": "aae9293510344ddd636364c2673e34e03e79e3eefa8dbaa70e326f7d",
-            "vrf": "227116365af2ed943f1a8b5e6557bfaa34996f1578eec667a5e2b361c51e4ce7"
+        "12b0f443d02861948a0fce9541916b014e8402984c7b83ad70a834ce": {
+            "delegate": "7c54a168c731f2f44ced620f3cca7c2bd90731cab223d5167aa994e6",
+            "vrf": "62d546a35e1be66a2b06e29558ef33f4222f1c466adbb59b52d800964d4e60ec"
         },
-        "8a4b77c4f534f8b8cc6f269e5ebb7ba77fa63a476e50e05e66d7051c": {
-            "delegate": "d15422b2e8b60e500a82a8f4ceaa98b04e55a0171d1125f6c58f8758",
-            "vrf": "0ada6c25d62db5e1e35d3df727635afa943b9e8a123ab83785e2281605b09ce2"
+        "3df542796a64e399b60c74acfbdb5afa1e114532fa36b46d6368ef3a": {
+            "delegate": "c44bc2f3cc7e98c0f227aa399e4035c33c0d775a0985875fff488e20",
+            "vrf": "4f9d334decadff6eba258b2df8ae1f02580a2628bce47ae7d957e1acd3f42a3c"
         },
-        "b00470cd193d67aac47c373602fccd4195aad3002c169b5570de1126": {
-            "delegate": "b3b539e9e7ed1b32fbf778bf2ebf0a6b9f980eac90ac86623d11881a",
-            "vrf": "0ff0ce9b820376e51c03b27877cd08f8ba40318f1a9f85a3db0b60dd03f71a7a"
+        "93fd5083ff20e7ab5570948831730073143bea5a5d5539852ed45889": {
+            "delegate": "82a02922f10105566b70366b07c758c8134fa91b3d8ae697dfa5e8e0",
+            "vrf": "8a57e94a9b4c65ec575f35d41edb1df399fa30fdf10775389f5d1ef670ca3f9f"
         },
-        "b260ffdb6eba541fcf18601923457307647dce807851b9d19da133ab": {
-            "delegate": "7c64eb868b4ef566391a321c85323f41d2b95480d7ce56ad2abcb022",
-            "vrf": "7fb22abd39d550c9a022ec8104648a26240a9ff9c88b8b89a6e20d393c03098e"
+        "a86cab3ea72eabb2e8aafbbf4abbd2ba5bdfd04eea26a39b126a78e4": {
+            "delegate": "10257f6d3bae913514bdc96c9170b3166bf6838cca95736b0e418426",
+            "vrf": "1b54aad6b013145a0fc74bb5c2aa368ebaf3999e88637d78e09706d0cc29874a"
         },
-        "ced1599fd821a39593e00592e5292bdc1437ae0f7af388ef5257344a": {
-            "delegate": "de7ca985023cf892f4de7f5f1d0a7181668884752d9ebb9e96c95059",
-            "vrf": "c301b7fc4d1b57fb60841bcec5e3d2db89602e5285801e522fce3790987b1124"
+        "b799804a28885bd49c0e1b99d8b3b26de0fac17a5cf651ecf0c872f0": {
+            "delegate": "ebe606e22d932d51be2c1ce87e7d7e4c9a7d1f7df4a5535c29e23d22",
+            "vrf": "b3fc06a1f8ee69ff23185d9af453503be8b15b2652e1f9fb7c3ded6797a2d6f9"
         },
-        "dd2a7d71a05bed11db61555ba4c658cb1ce06c8024193d064f2a66ae": {
-            "delegate": "1e113c218899ee7807f4028071d0e108fc790dade9fd1a0d0b0701ee",
-            "vrf": "faf2702aa4893c877c622ab22dfeaf1d0c8aab98b837fe2bf667314f0d043822"
+        "d125812d6ab973a2c152a0525b7fd32d36ff13555a427966a9cac9b1": {
+            "delegate": "e302198135fb5b00bfe0b9b5623426f7cf03179ab7ba75f945d5b79b",
+            "vrf": "b45ca2ed95f92248fa0322ce1fc9f815a5a5aa2f21f1adc2c42c4dccfc7ba631"
         },
-        "f3b9e74f7d0f24d2314ea5dfbca94b65b2059d1ff94d97436b82d5b4": {
-            "delegate": "fd637b08cc379ef7b99c83b416458fcda8a01a606041779331008fb9",
-            "vrf": "37f2ea7c843a688159ddc2c38a2f997ab465150164a9136dca69564714b73268"
+        "ef27651990a26449a40767d5e06cdef1670a3f3ff4b951d385b51787": {
+            "delegate": "0e0b11e80d958732e587585d30978d683a061831d1b753878f549d05",
+            "vrf": "b860ec844f6cd476c4fabb4aa1ca72d5c74d82f3835aed3c9515a35b6e048719"
         }
     },
     "initialFunds": {},
     "maxKESEvolutions": 120,
     "maxLovelaceSupply": 45000000000000000,
     "networkId": "Testnet",
-    "networkMagic": 1,
+    "networkMagic": 2,
     "protocolParams": {
         "a0": 0.1,
         "decentralisationParam": 1.0,
@@ -54,19 +54,19 @@
         "nOpt": 50,
         "poolDeposit": 500000000,
         "protocolVersion": {
-            "major": 2,
+            "major": 5,
             "minor": 0
         },
         "rho": 1.78650067e-3,
         "tau": 0.1
     },
-    "securityParam": 2160,
+    "securityParam": 432,
     "slotLength": 1,
     "slotsPerKESPeriod": 86400,
     "staking": {
         "pools": {},
         "stake": {}
     },
-    "systemStart": "2022-06-01T00:00:00Z",
+    "systemStart": "2022-08-09T00:00:00Z",
     "updateQuorum": 5
 }

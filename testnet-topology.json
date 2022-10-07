@@ -15,13 +15,13 @@
       "publicRoots": {
         "accessPoints": [
           {
-            "address": "preprod-node.world.dev.cardano.org",
-            "port": 30000
+            "address": "preview-node.world.dev.cardano.org",
+            "port": 30002
           }
         ],
         "advertise": false
       }
     }
   ],
-  "useLedgerAfterSlot": 4642000
+  "useLedgerAfterSlot": 322000
 }
