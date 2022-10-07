@@ -1,6 +1,6 @@
 # cardano-config
 
-This is a set of configuration files used tu set up Cardano Node (only).
+This is a set of [configuration files](https://github.com/input-output-hk/cardano-node/blob/master/doc/getting-started/understanding-config-files.md) used to set up Cardano Node.
 
 Configuration files are present for both `mainnet` and `testnet`.
 
