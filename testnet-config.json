@@ -1,9 +1,9 @@
 {
-  "AlonzoGenesisFile": "/opt/cardano/etc/testnet-alonzo-genesis.json",
+  "AlonzoGenesisFile": "alonzo-genesis.json",
   "AlonzoGenesisHash": "7e94a15f55d1e82d10f09203fa1d40f8eede58fd8066542cf6566008068ed874",
   "ApplicationName": "cardano-sl",
   "ApplicationVersion": 0,
-  "ByronGenesisFile": "/opt/cardano/etc/testnet-byron-genesis.json",
+  "ByronGenesisFile": "byron-genesis.json",
   "ByronGenesisHash": "d4b8de7a11d929a323373cbab6c1a9bdc931beffff11db111cf9d57356ee1937",
   "EnableP2P": true,
   "LastKnownBlockVersion-Alt": 0,
@@ -11,8 +11,8 @@
   "LastKnownBlockVersion-Minor": 0,
   "Protocol": "Cardano",
   "RequiresNetworkMagic": "RequiresMagic",
-  "ShelleyGenesisFile": "/opt/cardano/etc/testnet-shelley-genesis.json",
-  "ShelleyGenesisHash": "90c8bae45d3cb34ef25d84171a74f6e8a4a8f4615fbe289d5a1b21eb6896ac0b",
+  "ShelleyGenesisFile": "shelley-genesis.json",
+  "ShelleyGenesisHash": "162d29c4e1cf6b8a84f2d692e67a3ac6bc7851bc3e6e4afe64d15778bed8bd86",
   "TargetNumberOfActivePeers": 20,
   "TargetNumberOfEstablishedPeers": 50,
   "TargetNumberOfKnownPeers": 100,
@@ -58,15 +58,29 @@
   "TracingVerbosity": "NormalVerbosity",
   "TurnOnLogMetrics": true,
   "TurnOnLogging": true,
-  "defaultBackends": ["KatipBK"],
-  "defaultScribes": [["StdoutSK", "stdout"]],
+  "defaultBackends": [
+    "KatipBK"
+  ],
+  "defaultScribes": [
+    [
+      "StdoutSK",
+      "stdout"
+    ]
+  ],
   "hasEKG": 12788,
-  "hasPrometheus": ["127.0.0.1", 12798],
+  "hasPrometheus": [
+    "127.0.0.1",
+    12798
+  ],
   "minSeverity": "Info",
   "options": {
     "mapBackends": {
-      "cardano.node.metrics": ["EKGViewBK"],
-      "cardano.node.resources": ["EKGViewBK"]
+      "cardano.node.metrics": [
+        "EKGViewBK"
+      ],
+      "cardano.node.resources": [
+        "EKGViewBK"
+      ]
     },
     "mapSubtrace": {
       "cardano.node.metrics": {
@@ -79,7 +93,9 @@
     "rpLogLimitBytes": 5000000,
     "rpMaxAgeHours": 24
   },
-  "setupBackends": ["KatipBK"],
+  "setupBackends": [
+    "KatipBK"
+  ],
   "setupScribes": [
     {
       "scFormat": "ScText",
